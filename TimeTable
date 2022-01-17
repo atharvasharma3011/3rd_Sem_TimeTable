@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, td, th {
+  border: 1px solid black;
+}
+
+th
+{
+  background-color: #ffffcc;
+}
+a{
+font-family:courier;
+color:brown;
+
+}
+fac{
+color:red;
+}
+
+</style>
+<style>
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 250px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+<style>
+.tooltip2 {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip2 .tooltiptext2 {
+  visibility: hidden;
+  width: 250px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip2 .tooltiptext2::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip2:hover .tooltiptext2 {
+  visibility: visible;
+  opacity: 1;
+}
+ 
+button {
+  background-color: white; 
+  border: none;
+  color: black;
+  padding: 7px 140px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  border-radius: 8px ;
+  border: 2px solid red;
+}
+button:hover {
+  background-color: #ffffcc; 
+  color: black;
+}
+
+
+
+input {
+  background-color: white; 
+  border: 2px solid black;
+  color: black;
+  padding: 7px 100px;
+  font-size: 12px;
+}
+</style>
+</head>
+<body>
+<center>
+<h2>Time Table S 2021</h2>
+
+<table>
+         <tr>
+            <th rowspan="2">Days</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+         </tr>
+         <tr>
+            <th>09:30 - 10:30</th>
+            <th>10:30 - 11:30</th>
+            <th>11:30 - 12:30</th>
+            <th>12:30 - 01:30</th>
+            <th>01:30 - 02:30</th>
+            <th>02:30 - 03:30</th>
+            <th>03:30 - 04:30</th>
+            <th>4:30 - 5:30</th>
+         </tr>
+         <tr>
+            <th><BR><BR>Monday<BR><BR><BR></th>
+            <th colspan="2"><a   href="https://ghraisoni.webex.com/ghraisoni/k2/j.php?MTID=t18711bf754676f5a46d39a36b3ec080c" target="_blank">Data Analysis Using R Report</a><BR><BR><fac>M.S.Madankar</fac></th>
+            <th><a href="https://ghraisoni.webex.com/ghraisoni/k2/j.php?MTID=t0e76ceb4ed911d22d6965c1a9ba60591" target="_blank">OPerating System</a><BR><BR><fac>SS Dongre</fac></th>
+            <th>Recess</th>
+            <th><a href="Library" target="_blank">Library</a><BR><BR><fac>Atharva Sharma</fac></th>
+            <th><a href="https://ghraisoni.webex.com/ghraisoni/k2/j.php?MTID=t7220b5f71e8da7a97304cbde87a8cbe0" target="_blank">DAA</a><BR><BR><fac>Dipti</fac></th>
+            <th colspan="2"><a href="https://ghraisoni.webex.com/ghraisoni/k2/j.php?MTID=tefe9bb68d4916a79548c7081c78c2b0a" target="_blank">CN><BR><BR><fac>Shruti</fac></th>
+            
+         </tr>
+         <tr>
+            <th><BR><BR>Tuesday<BR><BR><BR></th>
+            <th colspan="2"><a href="https://ghraisoni.webex.com/ghraisoni/k2/j.php?MTID=t260e34c6a6c7ece908036800fe4afef6" target="_blank">DAA Report</a><BR><BR><fac>Madamr</fac></th>
+            <th><a href="https://ghraisoni.webex.com/ghraisoni/k2/j.php?MTID=tc5883d4eb96b9ce722f5b79b7e322660" target="_blank">TNM</a><BR><BR><fac>Madam </fac></th>
+            <th>Recess</th>
+            <th><a href="https://ghraisoni.webex.com/ghraisoni/k2/j.php?MTID=ta293dfc1213ff9a74f318f32591fe170" target="_blank">AMM</a><BR><BR><fac>Madam</fac></th>
+            <th><a href="Sports" target="_blank">Sports</a><BR><BR><fac>Atharva Sharma</fac></th>
+            <th colspan="2"><a href="https://ghraisoni.webex.com/ghraisoni/k2/j.php?MTID=t7220b5f71e8da7a97304cbde87a8cbe0" target="_blank">DAA</a><BR><BR><fac>Madam</fac></th>
+         </tr>
+         <tr>
+            <th><BR><BR>Wednesday<BR><BR><BR></th>
+            <th colspan="2"><a href="https://ghraisoni.webex.com/ghraisoni/k2/j.php?MTID=t0e76ceb4ed911d22d6965c1a9ba60591" target="_blank">OS Report</a><BR><BR><fac>Madam</fac></th>
+            <th><a href="https://ghraisoni.webex.com/ghraisoni/k2/j.php?MTID=t7220b5f71e8da7a97304cbde87a8cbe0" target="_blank">DAA</a><BR><BR><fac>Madam</fac></th>
+            <th>Recess</th>
+            <th><a href="https://ghraisoni.webex.com/ghraisoni/k2/j.php?MTID=ta293dfc1213ff9a74f318f32591fe170" target="_blank">AMM</a><BR><BR><fac>Madam</fac></th>
+            <th><a href="https://ghraisoni.webex.com/ghraisoni/k2/j.php?MTID=tf94df682b2e25cba5601513c227e3fa9" target="_blank">AMM A2 Practical</a><BR><BR><fac>Madam</fac></th>
+            <th colspan="2"><a href="https://ghraisoni.webex.com/ghraisoni/k2/j.php?MTID=ta68464834a8c9e90a5c98a388833e9df" target="_blank">Open Electiv</a><BR><BR><fac>Madam</fac></th>
+         </tr>
+         <tr>
+            <th><BR><BR>Thursday<BR><BR><BR></th>
+            <th colspan="2"><a href="https://ghraisoni.webex.com/ghraisoni/k2/j.php?MTID=ta68464834a8c9e90a5c98a388833e9df" target="_blank">open electiv Report</a><BR><BR><fac>Madam</fac></th>
+            <th><a href="https://ghraisoni.webex.com/ghraisoni/k2/j.php?MTID=t0e76ceb4ed911d22d6965c1a9ba60591" target="_blank">OS</a><BR><BR><fac>Madam</fac></th>
+            <th>Recess</th>
+            <th><a href="https://ghraisoni.webex.com/ghraisoni/k2/j.php?MTID=t7220b5f71e8da7a97304cbde87a8cbe0" target="_blank">DAA</a><BR><BR><fac>Madam</fac></th>
+            <th><a href="https://ghraisoni.webex.com/ghraisoni/k2/j.php?MTID=ta293dfc1213ff9a74f318f32591fe170" target="_blank">AMM</a><BR><BR><fac>Madam</fac></th>
+            <th colspan="2"><a href="https://ghraisoni.webex.com/ghraisoni/k2/j.php?MTID=tf94df682b2e25cba5601513c227e3fa9" target="_blank">AMM practical</a><BR><BR><fac>Madam</fac></th>
+         </tr>
+         <tr>
+            <th><BR><BR>Friday<BR><BR><BR></th>
+            <th colspan="2"><a href="https://ghraisoni.webex.com/ghraisoni/k2/j.php?MTID=t2a589f872fe74fa8b3bf7adb542277d5" target="_blank">Mini Project and Technical Report</a><BR><BR><fac>Singh Sir</fac></th>
+            <th><a href="https://ghraisoni.webex.com/ghraisoni/k2/j.php?MTID=tdacea2f110074a448c91b3c259223fde" target="_blank">Operating Systems</a><BR><BR><fac>Urmila Shrawankar</fac></th>
+            <th>Recess</th>
+            <th colspan="2"><a href="https://ghraisoni.webex.com/ghraisoni/k2/j.php?MTID=t66f5ce1a17628a578c6ff5d8b8f85405" target="_blank">Big Data</a><BR><BR><fac>Mangala Madankar</fac></th>
+            <th colspan="2"><a href="https://ghraisoni.webex.com/ghraisoni/k2/j.php?MTID=t66f5ce1a17628a578c6ff5d8b8f85405" target="_blank">Big Data</a><BR><BR><fac>Mangala Madankar</fac></th>
+         </tr>
+         <tr>
+            <th><BR><BR>Saturday<BR><BR><BR></th>
+            <th colspan="2"><a href="https://ghraisoni.webex.com/ghraisoni/k2/j.php?MTID=t3d21c2c0613b7fd23d9a59a1ce71982b" target="_blank">Machine Learning Algorithms</a><BR><BR><fac>Achamma Thomas</fac></th>
+            <th><a href="https://ghraisoni.webex.com/" target="_blank">Not yet Decided</a><BR><BR><fac>Faculty Name</fac></th>
+            <th>Recess</th>
+            <th colspan="4"><a href="https://ghraisoni.webex.com/ghraisoni/k2/j.php?MTID=t93dc5069e5f766e57d73f426ee228734" target="_blank">Mini Project</a><BR><BR><fac>Faculty Name</fac></th>
+         </tr>
+      </table>
+
+<br>
+<input type="text" value="12_CSE_Sanskar_Khandelwal" id="myInput" >
+
+<div class="tooltip">
+<button onclick="myFunction()" onmouseout="outFunc()" class="mybutton">
+  <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+  Copy text
+  </button>
+</div>
+<br><br>
+<input type="text" value="sanskar.khandelwal.cs@ghrce.raisoni.net" id="myInput2" >
+
+<div class="tooltip2">
+<button onclick="myFunction2()" onmouseout="outFunc2()">
+  <span class="tooltiptext2" id="myTooltip2">Copy to clipboard</span>
+  Copy text
+  </button>
+</div>
+<script>
+function myFunction() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copied: " + copyText.value;
+}
+
+function outFunc() {
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copy to clipboard";
+}
+</script>
+
+<script>
+function myFunction2() {
+  var copyText = document.getElementById("myInput2");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  
+  var tooltip = document.getElementById("myTooltip2");
+  tooltip.innerHTML = "Copied: " + copyText.value;
+}
+
+function outFunc2() {
+  var tooltip = document.getElementById("myTooltip2");
+  tooltip.innerHTML = "Copy to clipboard";
+}
+</script>
+</body>
+</html>
